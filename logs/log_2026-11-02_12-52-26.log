@@ -1,0 +1,60 @@
+
+-----
+Test: tests/test_google_maps_api.py::Test_create_place::test_create_new_place (call)
+Time: 2026-11-02 12:52:26.974170
+Request method URL: https://rahulshettyacademy.com/maps/api/place/add/json?key=qaclick123
+
+Response code: 200
+Response text: {"status":"OK","place_id":"e000b019eb197f61904400baa3363cb2","scope":"APP","reference":"c38179136130a11639ddb4dd619a4169c38179136130a11639ddb4dd619a4169","id":"c38179136130a11639ddb4dd619a4169"}
+Response headers: {'Date': 'Mon, 02 Nov 2026 09:52:28 GMT', 'Server': 'Apache/2.4.52 (Ubuntu)', 'Strict-Transport-Security': 'max-age=604800; includeSubDomains', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'POST', 'Access-Control-Max-Age': '3600', 'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With', 'Content-Length': '194', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'application/json;charset=UTF-8'}
+Response cookies: {}
+
+-----
+
+-----
+Test: tests/test_google_maps_api.py::Test_create_place::test_create_new_place (call)
+Time: 2026-11-02 12:52:27.821699
+Request method URL: https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=e000b019eb197f61904400baa3363cb2
+
+Response code: 200
+Response text: {"location":{"latitude":"-38.383494","longitude":"33.427362"},"accuracy":"50","name":"Frontline house","phone_number":"(+91) 983 893 3937","address":"29, side layout, cohen 09","types":"shoe park,shop","website":"http:\/\/google.com","language":"French-IN"}
+Response headers: {'Date': 'Mon, 02 Nov 2026 09:52:28 GMT', 'Server': 'Apache/2.4.52 (Ubuntu)', 'Strict-Transport-Security': 'max-age=604800; includeSubDomains', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'POST', 'Access-Control-Max-Age': '3600', 'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With', 'Content-Length': '257', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'application/json;charset=UTF-8'}
+Response cookies: {}
+
+-----
+
+-----
+Test: tests/test_google_maps_api.py::Test_create_place::test_create_new_place (call)
+Time: 2026-11-02 12:52:28.625332
+Request method URL: https://rahulshettyacademy.com/maps/api/place/update/jsone?key=qaclick123
+
+
+-----
+Test: tests/test_google_maps_api.py::Test_create_place::test_create_new_place (call)
+Time: 2026-11-02 12:52:29.428526
+Request method URL: https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=e000b019eb197f61904400baa3363cb2
+
+Response code: 200
+Response text: {"location":{"latitude":"-38.383494","longitude":"33.427362"},"accuracy":"50","name":"Frontline house","phone_number":"(+91) 983 893 3937","address":"100 Lenina street, RU","types":"shoe park,shop","website":"http:\/\/google.com","language":"French-IN"}
+Response headers: {'Date': 'Mon, 02 Nov 2026 09:52:30 GMT', 'Server': 'Apache/2.4.52 (Ubuntu)', 'Strict-Transport-Security': 'max-age=604800; includeSubDomains', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'POST', 'Access-Control-Max-Age': '3600', 'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With', 'Content-Length': '253', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'application/json;charset=UTF-8'}
+Response cookies: {}
+
+-----
+
+-----
+Test: tests/test_google_maps_api.py::Test_create_place::test_create_new_place (call)
+Time: 2026-11-02 12:52:30.254953
+Request method URL: https://rahulshettyacademy.com/maps/api/place/delete/json?key=qaclick123
+
+
+-----
+Test: tests/test_google_maps_api.py::Test_create_place::test_create_new_place (call)
+Time: 2026-11-02 12:52:31.100225
+Request method URL: https://rahulshettyacademy.com/maps/api/place/get/json?key=qaclick123&place_id=e000b019eb197f61904400baa3363cb2
+
+Response code: 404
+Response text: {"msg":"Get operation failed, looks like place_id  doesn't exists"}
+Response headers: {'Date': 'Mon, 02 Nov 2026 09:52:32 GMT', 'Server': 'Apache/2.4.52 (Ubuntu)', 'Strict-Transport-Security': 'max-age=604800; includeSubDomains', 'Access-Control-Allow-Origin': '*', 'Access-Control-Allow-Methods': 'POST', 'Access-Control-Max-Age': '3600', 'Access-Control-Allow-Headers': 'Content-Type, Access-Control-Allow-Headers, Authorization, X-Requested-With', 'Content-Length': '67', 'Keep-Alive': 'timeout=5, max=100', 'Connection': 'Keep-Alive', 'Content-Type': 'application/json;charset=UTF-8'}
+Response cookies: {}
+
+-----
